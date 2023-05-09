@@ -1,14 +1,14 @@
 # csgo-config
 My CSGO config
 
-### Jumpthrow, Jump, Drop Weapon
+### Gameplay
 ```
 bind space "+jump; -attack; -jump"; bind mwheelup "+jump"; bind mwheeldown "+jump"; bind mouse3 "drop"
 ```
 
-### Push to Talk, Ping, Scoreboard + Clear Decals
+### Push to Talk, HUD
 ```
-bind g "+voicerecord"; bind h "player_ping";bind tab "+showscores; r_cleardecals"
+bind g "+voicerecord"; bind h "player_ping";bind tab "+showscores; r_cleardecals"; cl_hud_playercount_showcount 1
 ```
 
 ### Grenades
